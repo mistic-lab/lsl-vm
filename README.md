@@ -1,6 +1,8 @@
 # lsl-vm
 A Debian (stretch) VM which can be run in VirtualBox and comes pre-loaded with lsl (LWA Software Library).
 
+## Cloning this repo
+The vm virtual hard drive files are managed using Git LFS. You'll need to consider that when cloning/forking so you don't end up with only the pointer files.
 
 ## Accounts
 __Username__: root
@@ -21,7 +23,7 @@ __Password__: lslvm
 
 
 ## Notes
-Atlas was installed via apt. There are some pretty involved instructions on getting it installed manually but I couldn't figure out CPU unthrottling on the VM. If anyone knows how to get that working let me know (github.com/nsbruce).
+Atlas was installed via apt. There are some pretty involved instructions on getting it installed manually but I couldn't figure out CPU unthrottling on the VM. If anyone knows how to get that working let me know (https://github.com/nsbruce).
 
 ## Author
 [Nicholas Bruce](https://github.com/nsbruce)
