@@ -38,8 +38,9 @@ root@host$ reboot
 ### Install lsl
 ```$ pip install lsl```
 ### Optional - install/download the SDF GUI
-``` $ sudo apt install subversion```
-```svn export http://fornax.phys.unm.edu/lwa/subversion/trunk/SessionSchedules```
+```$ sudo apt install subversion```
+
+```$ svn export http://fornax.phys.unm.edu/lwa/subversion/trunk/SessionSchedules```
 
 ## Notes
 Atlas was installed via apt. There are some pretty involved instructions on getting it installed manually but I couldn't figure out CPU unthrottling on the VM. If anyone knows how to get that working let me know (https://github.com/nsbruce).
